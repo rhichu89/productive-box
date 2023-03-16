@@ -8,9 +8,9 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
-      - name: Languages
-        uses: rhichu89/productive-box@master
+      - name: Update gist
+        uses: maxam2017/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 50320d42e888db95bee96181bf015e0a
+          GIST_ID: 9842e074b8ee46aef76fd0d493bae0ed
           TIMEZONE: Asia/Taipei
