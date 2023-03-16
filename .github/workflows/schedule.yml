@@ -8,7 +8,7 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
-      - name: Update gist
+      - name: Languages
         uses: rhichu89/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
